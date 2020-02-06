@@ -129,8 +129,8 @@ myLamp.turnOn();
 
 console.log(`myLamp's current brightness: ${myLamp.currentBrightness}`);
 
-power.surge(myLamp);
-power.outage(myLamp);
+powerEvents.surge(myLamp);
+powerEvents.outage(myLamp);
 
 myLamp.turnOn();
 
